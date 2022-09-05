@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <catag-tory />
+    <new-list />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CatagTory from './components/catag-tory.vue'
+import NewList from './components/new-list.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    CatagTory,
+    NewList
   }
 }
 </script>
